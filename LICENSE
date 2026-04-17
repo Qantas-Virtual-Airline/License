@@ -1,0 +1,707 @@
+QANTAS VIRTUAL AIRLINE
+PROPRIETARY SOFTWARE LICENCE AGREEMENT
+AND INTELLECTUAL PROPERTY PROTECTION DEED
+
+Version 1.0 — Effective Date: 2025
+Copyright © 2025 Qantas Virtual Airline. All Rights Reserved.
+
+════════════════════════════════════════════════════════════════════════════════
+IMPORTANT LEGAL NOTICE — READ CAREFULLY BEFORE ACCESSING, DOWNLOADING,
+CLONING, FORKING, VIEWING, OR USING ANY PART OF THIS SOFTWARE, CODEBASE,
+REPOSITORY, OR ANY ASSOCIATED MATERIALS.
+════════════════════════════════════════════════════════════════════════════════
+
+BY ACCESSING, CLONING, DOWNLOADING, VIEWING, OR OTHERWISE INTERACTING WITH
+THIS REPOSITORY OR ANY OF ITS CONTENTS IN ANY FORM, YOU ACKNOWLEDGE THAT YOU
+HAVE READ, UNDERSTOOD, AND AGREE TO BE LEGALLY BOUND BY THE TERMS AND
+CONDITIONS SET FORTH IN THIS LICENCE AGREEMENT IN THEIR ENTIRETY.
+
+IF YOU DO NOT AGREE TO THESE TERMS, YOU MUST IMMEDIATELY CEASE ALL ACCESS TO
+THIS REPOSITORY AND DELETE ANY COPIES OF THIS SOFTWARE IN YOUR POSSESSION.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+PART I — DEFINITIONS
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Article 1 — Definitions
+
+For the purposes of this Licence Agreement, the following terms shall have the
+meanings ascribed to them below:
+
+1.1  "Qantas Virtual" or "QFV" refers to Qantas Virtual Airline, an
+     independent virtual airline organisation operating within the VATSIM
+     network under the VATPAC region, established in 2025. Qantas Virtual is
+     not affiliated with, endorsed by, or connected to Qantas Airways Limited
+     or any of its subsidiaries in any way.
+
+1.2  "The Organisation" refers to Qantas Virtual Airline as a whole,
+     including its leadership, staff, developers, and authorised members.
+
+1.3  "The Software" refers to the entirety of the Qantas Virtual platform,
+     including but not limited to: the public-facing website, the CrewHub
+     pilot portal, the ACARS (Aircraft Communications Addressing and Reporting
+     System) web and desktop applications, the administration panel, the
+     support ticket system, the live flight map, the pilot logbook system,
+     the Discord bot, all associated backend systems, Firebase configuration,
+     database schemas, data structures, API integrations, and all source code,
+     scripts, stylesheets, markup, assets, templates, and configuration files
+     contained within this repository or associated repositories.
+
+1.4  "The Repository" refers to the private GitHub repository located at
+     github.com/Qantas-Virtual-Airline/Qantas-Virtual and any associated
+     repositories, branches, forks, mirrors, or copies thereof, whether
+     authorised or unauthorised.
+
+1.5  "Authorised Developer" refers to an individual who has been explicitly
+     granted access to this repository by the President or Vice President of
+     Qantas Virtual, holds a valid and active role within the Qantas Virtual
+     development team, and has acknowledged and agreed to be bound by this
+     Licence Agreement and all associated internal policies.
+
+1.6  "Authorised User" refers to any member of the Qantas Virtual organisation
+     who has been granted specific, limited access to particular systems or
+     features of the Software in accordance with their assigned role within
+     the organisation, and who does not hold developer-level access.
+
+1.7  "Intellectual Property" refers to all creative, technical, and
+     organisational works produced by or for Qantas Virtual, including but not
+     limited to: source code, compiled code, object code, database schemas,
+     user interface designs, logos, graphics, written content, documentation,
+     internal policies, training materials, configuration files, API keys,
+     credentials, data structures, algorithms, workflows, and any other
+     original works of authorship fixed in any tangible medium.
+
+1.8  "Derivative Work" refers to any work that is based upon, adapted from,
+     inspired by, or incorporates any portion of the Software or its
+     Intellectual Property, regardless of the extent of modification or the
+     medium in which it is expressed.
+
+1.9  "Commercial Use" refers to any use of the Software or any portion thereof
+     for financial gain, monetary compensation, business purposes, or any
+     activity intended to generate revenue, whether directly or indirectly.
+
+1.10 "Confidential Information" refers to any non-public information relating
+     to the Software, the Organisation, its members, its operations, its
+     systems, its credentials, its architecture, its strategies, or any other
+     information that is not publicly disclosed by Qantas Virtual through
+     official channels.
+
+1.11 "Licence Agreement" or "this Agreement" refers to this entire document,
+     including all Parts, Articles, Sections, and Schedules contained herein.
+
+1.12 "Violation" refers to any breach, infringement, or contravention of any
+     term, condition, restriction, or prohibition set forth in this Licence
+     Agreement.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+PART II — OWNERSHIP AND INTELLECTUAL PROPERTY RIGHTS
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Article 2 — Ownership
+
+2.1  The Software and all associated Intellectual Property are the sole and
+     exclusive property of Qantas Virtual Airline. All rights not expressly
+     granted in this Agreement are reserved by Qantas Virtual.
+
+2.2  No part of this Agreement shall be construed as transferring, assigning,
+     licensing, or otherwise conveying any ownership interest in the Software
+     or any Intellectual Property to any individual, entity, or organisation.
+
+2.3  Any contributions made to the Software by Authorised Developers, whether
+     in the form of code, design, documentation, or any other form, shall
+     immediately and irrevocably become the sole property of Qantas Virtual
+     upon submission, and the contributing developer waives all claims to
+     ownership, authorship credit beyond internal recognition, or compensation
+     in relation to such contributions.
+
+2.4  All rights, title, and interest in and to the Software, including all
+     associated Intellectual Property rights, are and shall remain exclusively
+     vested in Qantas Virtual Airline.
+
+Article 3 — Copyright
+
+3.1  The Software is protected by copyright law, international treaties, and
+     all other applicable intellectual property legislation.
+
+3.2  Copyright © 2025 Qantas Virtual Airline. All Rights Reserved.
+
+3.3  Unauthorised reproduction, distribution, modification, or use of the
+     Software or any portion thereof constitutes copyright infringement and
+     may result in civil and criminal penalties under applicable law.
+
+3.4  The Qantas Virtual name, logo, branding, and associated marks are the
+     proprietary property of Qantas Virtual Airline. Nothing in this Agreement
+     grants any right to use the Qantas Virtual name, logo, or branding for
+     any purpose without prior written consent from the President of Qantas
+     Virtual.
+
+3.5  Note: "Qantas" is a registered trademark of Qantas Airways Limited.
+     Qantas Virtual Airline uses the name solely for flight simulation
+     purposes in accordance with VATSIM virtual airline policies and does not
+     claim any trademark rights in the Qantas name or associated marks.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+PART III — GRANT OF LICENCE AND PERMITTED USE
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Article 4 — Grant of Licence
+
+4.1  Subject to the terms and conditions of this Agreement, Qantas Virtual
+     grants Authorised Developers a limited, non-exclusive, non-transferable,
+     non-sublicensable, revocable licence to access, view, and modify the
+     Software solely for the purpose of contributing to the development and
+     maintenance of the Qantas Virtual platform.
+
+4.2  This licence is strictly personal to the Authorised Developer to whom it
+     is granted and may not be transferred, assigned, sublicensed, or delegated
+     to any other person or entity under any circumstances.
+
+4.3  This licence is conditional upon the Authorised Developer's continued
+     compliance with all terms of this Agreement, all internal Qantas Virtual
+     policies, and all applicable VATSIM regulations.
+
+4.4  This licence may be revoked at any time, with or without notice, by the
+     President or Vice President of Qantas Virtual, at their sole discretion.
+
+Article 5 — Permitted Uses
+
+5.1  Authorised Developers are permitted to:
+
+     (a) Clone the repository to their personal development machine for the
+         sole purpose of contributing to the Qantas Virtual platform;
+
+     (b) View, read, and analyse the source code for the purpose of
+         understanding system architecture and contributing improvements;
+
+     (c) Modify the source code for the purpose of fixing bugs, implementing
+         approved features, and improving the platform, subject to the review
+         and approval process defined in the Qantas Virtual development
+         guidelines;
+
+     (d) Submit pull requests to the repository in accordance with the
+         Qantas Virtual pull request guidelines;
+
+     (e) Run the Software locally on their personal development machine
+         solely for testing and development purposes.
+
+5.2  Authorised Users are permitted to:
+
+     (a) Access and use the Software through its intended interfaces (website,
+         CrewHub portal, ACARS system) in accordance with their assigned role;
+
+     (b) Use the Software for its intended purpose of participating in virtual
+         airline activities within the Qantas Virtual organisation.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+PART IV — RESTRICTIONS AND PROHIBITIONS
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Article 6 — Absolute Prohibitions
+
+The following actions are strictly and absolutely prohibited without exception.
+No implied permission, assumed consent, or claimed justification shall
+constitute an authorisation for any of the following:
+
+6.1  COPYING AND REPRODUCTION
+     You must not copy, reproduce, duplicate, replicate, or otherwise create
+     copies of the Software or any portion thereof, in whole or in part, in
+     any form or medium, whether digital, printed, or otherwise, except as
+     expressly permitted under Article 5 of this Agreement.
+
+6.2  DISTRIBUTION
+     You must not distribute, publish, transmit, broadcast, disseminate,
+     share, upload, or otherwise make available the Software or any portion
+     thereof to any person, entity, or system that has not been explicitly
+     authorised by the President or Vice President of Qantas Virtual.
+
+6.3  PUBLIC DISCLOSURE
+     You must not publish, post, share, or disclose any portion of the
+     Software, its source code, its architecture, its internal logic, its
+     credentials, its configuration, or any Confidential Information on any
+     public platform, forum, website, social media platform, messaging service,
+     or any other medium accessible to persons outside the Qantas Virtual
+     development team.
+
+6.4  COMMERCIAL USE
+     You must not use the Software or any portion thereof for any Commercial
+     Use whatsoever. The Software is developed exclusively for the non-profit
+     virtual aviation simulation activities of Qantas Virtual Airline and must
+     not be used to generate revenue in any form.
+
+6.5  DERIVATIVE WORKS
+     You must not create, develop, distribute, or publish any Derivative Work
+     based upon the Software or any portion thereof without the prior written
+     consent of the President of Qantas Virtual. This prohibition applies
+     regardless of the extent of modification, the purpose of the Derivative
+     Work, or the medium in which it is expressed.
+
+6.6  FORKING
+     You must not fork this repository or create any unauthorised copy or
+     mirror of this repository on GitHub, GitLab, Bitbucket, or any other
+     version control platform or hosting service.
+
+6.7  REVERSE ENGINEERING
+     You must not reverse engineer, decompile, disassemble, or otherwise
+     attempt to derive the source code, underlying logic, algorithms, or
+     architecture of any compiled or obfuscated portion of the Software.
+
+6.8  CREDENTIAL MISUSE
+     You must not extract, share, store insecurely, publish, or misuse any
+     API keys, Firebase credentials, authentication tokens, database URLs,
+     passwords, or any other credentials or secrets contained within or
+     associated with the Software.
+
+6.9  UNAUTHORISED ACCESS
+     You must not attempt to access any portion of the Software, its backend
+     systems, its database, its admin panel, or any associated systems for
+     which you have not been explicitly authorised, regardless of technical
+     feasibility.
+
+6.10 CIRCUMVENTION OF ACCESS CONTROLS
+     You must not attempt to circumvent, bypass, disable, or otherwise
+     subvert any access control, authentication mechanism, authorisation
+     check, role restriction, or security measure implemented within the
+     Software.
+
+6.11 IMPERSONATION
+     You must not use the Software to impersonate any member of Qantas
+     Virtual, any VATSIM official, any real-world aviation authority, or
+     any other person or organisation.
+
+6.12 MALICIOUS USE
+     You must not use the Software or access to the repository to introduce
+     malicious code, malware, backdoors, logic bombs, or any other harmful
+     software into the platform or its associated systems.
+
+6.13 DATA HARVESTING
+     You must not harvest, scrape, extract, or collect any data from the
+     Software, its database, or its associated systems for any purpose other
+     than that which is expressly required for your authorised development
+     activities.
+
+6.14 TRANSFER OF ACCESS
+     You must not share, transfer, or provide your repository access,
+     credentials, or any authentication tokens to any other person, including
+     other members of the Qantas Virtual organisation, without the explicit
+     written authorisation of the President or Vice President.
+
+6.15 COMPETING PLATFORMS
+     You must not use knowledge of or access to the Software, its
+     architecture, its features, or its Confidential Information to develop,
+     assist in developing, or contribute to any competing virtual airline
+     platform or any platform that replicates or substantially imitates the
+     functionality of the Qantas Virtual platform.
+
+6.16 USE AFTER TERMINATION
+     You must not access, use, or retain any copy of the Software or any
+     Confidential Information after your authorisation has been revoked,
+     your membership in the Qantas Virtual organisation has ended, or this
+     Agreement has been terminated with respect to you.
+
+Article 7 — No Implied Permissions
+
+7.1  The grant of access to this repository or any system of Qantas Virtual
+     does not imply any permission beyond those explicitly stated in Article 5
+     of this Agreement.
+
+7.2  Silence on the part of Qantas Virtual with respect to any particular use
+     of the Software does not constitute permission for that use.
+
+7.3  Prior practice, custom, or informal agreement shall not be construed as
+     creating any permission, right, or entitlement not expressly provided for
+     in this Agreement.
+
+7.4  No verbal communication, informal message, or Discord conversation shall
+     be construed as amending, superseding, or overriding any provision of
+     this Agreement unless it is documented in writing and countersigned by
+     the President of Qantas Virtual.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+PART V — CONFIDENTIALITY
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Article 8 — Confidentiality Obligations
+
+8.1  All Authorised Developers and Authorised Users who have access to any
+     Confidential Information of Qantas Virtual are bound by a duty of
+     confidentiality, which shall survive the termination of this Agreement
+     and the termination of their membership in the Qantas Virtual
+     organisation indefinitely.
+
+8.2  Confidential Information must be:
+
+     (a) Kept strictly confidential and not disclosed to any person outside
+         the authorised Qantas Virtual development team;
+
+     (b) Used solely for the purpose of fulfilling authorised development
+         or operational duties within Qantas Virtual;
+
+     (c) Protected with reasonable security measures to prevent unauthorised
+         access or disclosure;
+
+     (d) Promptly reported to the President or Vice President if any
+         unauthorised disclosure is discovered or suspected.
+
+8.3  The following categories of information are expressly classified as
+     Confidential Information and subject to the strictest protection:
+
+     (a) Firebase API keys, project IDs, database URLs, storage bucket
+         identifiers, messaging sender IDs, and application IDs;
+
+     (b) Any authentication credentials, passwords, tokens, or secrets used
+         by the Software or its associated systems;
+
+     (c) The internal architecture, data structures, and logic of the
+         ACARS system, CrewHub portal, and administration panel;
+
+     (d) Member data, pilot records, flight logs, and any personally
+         identifiable information stored within the platform;
+
+     (e) Internal communications, development plans, roadmaps, and
+         strategic decisions of the Qantas Virtual leadership team;
+
+     (f) Discord bot tokens, server IDs, and associated configuration;
+
+     (g) Any information relating to security vulnerabilities, known issues,
+         or planned security measures within the platform.
+
+8.4  The obligation of confidentiality shall not apply to information that:
+
+     (a) Is or becomes publicly available through no fault of the recipient;
+
+     (b) Was already in the possession of the recipient prior to disclosure
+         by Qantas Virtual, as evidenced by written records;
+
+     (c) Is required to be disclosed by applicable law or court order,
+         provided that Qantas Virtual is given prompt written notice and
+         the opportunity to seek a protective order.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+PART VI — DATA PROTECTION AND PRIVACY
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Article 9 — Member Data Protection
+
+9.1  All member data collected and stored by the Qantas Virtual platform,
+     including but not limited to VATSIM CIDs, email addresses, pilot
+     callsigns, flight logs, and personal preferences, is the property of
+     the respective members and must be handled in accordance with applicable
+     data protection legislation and the Qantas Virtual Privacy Policy.
+
+9.2  Authorised Developers who have access to member data through their
+     development activities must:
+
+     (a) Access only the minimum amount of member data necessary for their
+         authorised development tasks;
+
+     (b) Not retain, copy, or store member data outside of the authorised
+         development environment;
+
+     (c) Not use member data for any purpose other than the fulfilment of
+         their authorised development duties;
+
+     (d) Immediately report any data breach, suspected breach, or
+         unauthorised access to member data to the President of Qantas
+         Virtual.
+
+9.3  The Software must be developed and maintained in a manner that respects
+     the privacy rights of members and complies with applicable data
+     protection legislation, including the General Data Protection Regulation
+     (GDPR) where applicable.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+PART VII — SECURITY OBLIGATIONS
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Article 10 — Security Requirements
+
+10.1 All Authorised Developers are required to maintain the security of the
+     repository and associated systems and must at all times:
+
+     (a) Use strong, unique passwords for their GitHub account and any other
+         accounts used in connection with Qantas Virtual development;
+
+     (b) Enable two-factor authentication on their GitHub account;
+
+     (c) Never commit API keys, credentials, tokens, or secrets to the
+         repository in any form, including in comments, commit messages,
+         or configuration files;
+
+     (d) Immediately report any suspected security vulnerability, breach,
+         or compromise to the President or Vice President of Qantas Virtual;
+
+     (e) Keep their development environment secure and free from malware
+         or other threats that could compromise the repository or its
+         associated systems;
+
+     (f) Immediately revoke and report any credentials that may have been
+         compromised or inadvertently exposed.
+
+10.2 Any Authorised Developer who discovers a security vulnerability in the
+     Software must report it exclusively through the designated internal
+     security reporting channel and must not disclose it publicly or to
+     any person outside the development team until it has been resolved.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+PART VIII — VATSIM COMPLIANCE
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Article 11 — VATSIM Policy Compliance
+
+11.1 The Software must at all times be developed and operated in compliance
+     with all applicable VATSIM policies, including but not limited to the
+     VATSIM Virtual Airline Administration Policy (VAA Policy v1.5, January
+     2026), the VATSIM Virtual Airline Pilot Policy (VAP Policy v1.2, January
+     2026), and all other applicable VATSIM regulations and guidelines.
+
+11.2 Authorised Developers must not introduce any feature, functionality, or
+     modification to the Software that would cause the Qantas Virtual platform
+     to fall out of compliance with VATSIM policies.
+
+11.3 Any proposed feature or change that may affect VATSIM compliance must
+     be reviewed and approved by the President or Vice President of Qantas
+     Virtual before implementation.
+
+11.4 The Software must not be used in any way that violates the VATSIM Code
+     of Conduct or any other applicable VATSIM regulations.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+PART IX — ENFORCEMENT AND CONSEQUENCES
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Article 12 — Consequences of Violation
+
+12.1 Any Violation of this Agreement may result in one or more of the
+     following consequences, at the sole discretion of the Qantas Virtual
+     leadership team:
+
+     (a) Immediate and permanent revocation of all access to the repository
+         and all Qantas Virtual systems;
+
+     (b) Immediate and permanent removal from the Qantas Virtual organisation,
+         including removal of all roles and privileges;
+
+     (c) Reporting of the Violation to VATSIM, which may result in suspension
+         or termination of the violating individual's VATSIM membership;
+
+     (d) Reporting of the Violation to GitHub, which may result in suspension
+         or termination of the violating individual's GitHub account;
+
+     (e) Legal action to the fullest extent permitted by applicable law,
+         including claims for damages, injunctive relief, and recovery of
+         legal costs.
+
+12.2 The consequences listed in Article 12.1 are not mutually exclusive and
+     multiple consequences may be applied simultaneously in response to a
+     single Violation.
+
+12.3 A Violation need not be intentional to attract consequences. Negligent
+     or reckless conduct that results in a Violation shall be treated with
+     the same seriousness as an intentional Violation.
+
+12.4 Qantas Virtual reserves the right to investigate any suspected Violation
+     and all Authorised Developers and Authorised Users are required to
+     cooperate fully with any such investigation.
+
+Article 13 — Reporting Violations
+
+13.1 Any person who becomes aware of a Violation or suspected Violation of
+     this Agreement is encouraged to report it to the President or Vice
+     President of Qantas Virtual through an official internal communication
+     channel.
+
+13.2 Reports made in good faith shall be treated confidentially to the
+     greatest extent possible and the reporting individual shall not suffer
+     any adverse consequences as a result of making a good faith report.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+PART X — DISCLAIMERS AND LIMITATIONS
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Article 14 — Disclaimer of Warranties
+
+14.1 THE SOFTWARE IS PROVIDED "AS IS" FOR INTERNAL DEVELOPMENT AND OPERATIONAL
+     PURPOSES ONLY, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED.
+
+14.2 QANTAS VIRTUAL MAKES NO WARRANTY THAT THE SOFTWARE WILL BE ERROR-FREE,
+     UNINTERRUPTED, SECURE, OR FREE FROM HARMFUL COMPONENTS.
+
+14.3 THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE SOFTWARE RESTS
+     WITH THE INDIVIDUAL USING IT IN THEIR DEVELOPMENT ACTIVITIES.
+
+Article 15 — Limitation of Liability
+
+15.1 TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, QANTAS VIRTUAL SHALL
+     NOT BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL,
+     OR PUNITIVE DAMAGES ARISING OUT OF OR IN CONNECTION WITH THE USE OF OR
+     INABILITY TO USE THE SOFTWARE.
+
+15.2 THIS LIMITATION APPLIES REGARDLESS OF THE LEGAL THEORY UPON WHICH THE
+     CLAIM IS BASED, WHETHER IN CONTRACT, TORT, NEGLIGENCE, OR OTHERWISE.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+PART XI — GENERAL PROVISIONS
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Article 16 — Term and Termination
+
+16.1 This Agreement is effective from the moment an individual first accesses
+     this repository or any associated Qantas Virtual system and shall remain
+     in effect until terminated.
+
+16.2 This Agreement may be terminated with respect to an individual by Qantas
+     Virtual at any time, with or without cause, by revoking that individual's
+     access to the repository and associated systems.
+
+16.3 An individual's obligations under Parts V (Confidentiality), VI (Data
+     Protection), and VII (Security) of this Agreement shall survive the
+     termination of this Agreement indefinitely.
+
+16.4 Upon termination of this Agreement with respect to an individual, that
+     individual must immediately:
+
+     (a) Cease all access to the repository and all Qantas Virtual systems;
+
+     (b) Delete all local copies of the repository and any associated files,
+         credentials, or Confidential Information from their devices;
+
+     (c) Return or destroy any Confidential Information in their possession.
+
+Article 17 — Amendments
+
+17.1 Qantas Virtual reserves the right to amend, update, or replace this
+     Agreement at any time without prior notice.
+
+17.2 Continued access to the repository or any Qantas Virtual system following
+     the publication of an amended Agreement shall constitute acceptance of
+     the amended terms.
+
+17.3 The most current version of this Agreement shall always be the version
+     contained in the main branch of the repository.
+
+Article 18 — Severability
+
+18.1 If any provision of this Agreement is found to be invalid, illegal, or
+     unenforceable under applicable law, that provision shall be deemed
+     modified to the minimum extent necessary to make it valid and enforceable,
+     or if it cannot be so modified, it shall be severed from this Agreement.
+
+18.2 The invalidity, illegality, or unenforceability of any provision shall
+     not affect the validity or enforceability of the remaining provisions
+     of this Agreement.
+
+Article 19 — Entire Agreement
+
+19.1 This Agreement constitutes the entire agreement between Qantas Virtual
+     and each Authorised Developer or Authorised User with respect to the
+     subject matter hereof and supersedes all prior and contemporaneous
+     understandings, agreements, representations, and warranties, whether
+     written or oral.
+
+19.2 No amendment, modification, or waiver of any provision of this Agreement
+     shall be effective unless made in writing and signed by the President of
+     Qantas Virtual.
+
+Article 20 — No Waiver
+
+20.1 The failure of Qantas Virtual to enforce any provision of this Agreement
+     shall not constitute a waiver of its right to enforce that provision or
+     any other provision in the future.
+
+20.2 A waiver of any breach of this Agreement shall not be construed as a
+     waiver of any subsequent breach of the same or any other provision.
+
+Article 21 — Third Party Rights
+
+21.1 This Agreement does not confer any rights or remedies upon any third
+     party, including but not limited to other virtual airlines, VATSIM
+     divisions, or external developers.
+
+Article 22 — Governing Principles
+
+22.1 This Agreement shall be interpreted and applied in a manner consistent
+     with the values, mission, and operational requirements of Qantas Virtual
+     Airline as a responsible virtual airline organisation operating within
+     the VATSIM network.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+SCHEDULE A — QUICK REFERENCE SUMMARY
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+The following is a non-exhaustive summary for convenience only. In the event
+of any conflict between this summary and the full Agreement above, the full
+Agreement shall prevail.
+
+YOU MAY:
+  ✅ Clone the repo to your personal dev machine (if authorised)
+  ✅ View and read the source code (if authorised)
+  ✅ Make changes and submit pull requests (if authorised)
+  ✅ Run the software locally for development and testing (if authorised)
+  ✅ Use the platform as a member in your assigned role
+
+YOU MAY NOT:
+  ❌ Share the code, credentials, or any part of the repo with anyone
+  ❌ Publish any part of the code publicly
+  ❌ Fork, mirror, or copy the repository
+  ❌ Use the code for any commercial purpose
+  ❌ Create derivative works without written permission
+  ❌ Reverse engineer any part of the software
+  ❌ Share your access with anyone else
+  ❌ Retain any copy of the code after your access is revoked
+  ❌ Use knowledge of the system to build a competing platform
+  ❌ Commit credentials, API keys, or secrets to the repository
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+SCHEDULE B — CONTACT AND REPORTING
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+For all matters relating to this Licence Agreement, including requests for
+permission, reporting of violations, security disclosures, and general
+enquiries, contact:
+
+  Organisation:   Qantas Virtual Airline
+  President:      Available via the Qantas Virtual Discord server
+  Website:        https://qantas-virtual.pages.dev
+  Repository:     https://github.com/Qantas-Virtual-Airline/Qantas-Virtual
+  VATSIM Region:  VATPAC
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Copyright © 2025 Qantas Virtual Airline. All Rights Reserved.
+
+This document and the rights it describes are the sole property of Qantas
+Virtual Airline. No part of this document may be reproduced or distributed
+without the prior written consent of the President of Qantas Virtual.
+
+Qantas Virtual Airline is an independent virtual airline and is not affiliated
+with, endorsed by, or connected to Qantas Airways Limited in any way.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+END OF LICENCE AGREEMENT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
