@@ -702,30 +702,23 @@ without the prior written consent of the President of Qantas Virtual.
 Qantas Virtual Airline is an independent virtual airline and is not affiliated
 with, endorsed by, or connected to Qantas Airways Limited in any way.
 
-<div align="center">
-
-# 🛫 Qantas Virtual (QFV)
-### Official Policies & Standard Operating Procedures
-
 [![VATSIM](https://img.shields.io/badge/VATSIM-Virtual%20Airline%20Affiliate-red?style=flat-square)](https://vatsim.net)
 [![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=flat-square)]()
 [![Version](https://img.shields.io/badge/Docs%20Version-1.0-blue?style=flat-square)]()
 
-*Qantas Virtual is a community-run virtual airline operating on the VATSIM network, modelled on real-world Qantas Airways. We are registered as a VATSIM Virtual Airline Affiliate (VAA).*
-
-</div>
+Qantas Virtual is a community-run virtual airline operating on the VATSIM network, modelled on real-world Qantas Airways. We are registered as a VATSIM Virtual Airline Affiliate (VAA).
 
 ---
 
 ## 📌 Before You Fly — Mandatory Tools
 
-Every QFV pilot **must** use these tools on every flight. No exceptions.
+Every QFV pilot must use these tools on every flight. No exceptions.
 
 | Tool | Purpose | Link |
 |---|---|---|
-| 🗺️ **SimBrief** | Flight planning — OFP, fuel, routing | [simbrief.com](https://www.simbrief.com) |
+| 🗺️ SimBrief | Flight planning — OFP, fuel, routing | [simbrief.com](https://www.simbrief.com) |
 
-> ⚠️ **Flights not planned via SimBrief or not logged via Flight Logger will NOT count toward your hours or rank progression.**
+> ⚠️ Flights not planned via SimBrief or not logged via ACARS or Pireps will NOT count toward your hours or rank progression.
 
 ---
 
@@ -737,9 +730,7 @@ Please Check Above
 
 ## ✈️ Aircraft Standard Operating Procedures
 
-Please Check Above
-
----
+Please check Above
 
 ## 🔗 Quick Links
 
@@ -749,18 +740,6 @@ Please Check Above
 | SimBrief | [simbrief.com](https://www.simbrief.com) |
 | VATSIM CoC | [vatsim.net/docs/policy/code-of-conduct](https://vatsim.net/docs/policy/code-of-conduct) |
 | QFV Discord | https://discord.gg/XR7h7Ybk5y |
-
----
-
-<div align="center">
-
-**🛫 QANTAS VIRTUAL · QFV · VATSIM VAA**
-
-*All documents are Version 1.0 — March 2026*
-*Maintained by QFV VA Management*
-
-</div>
-
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 END OF LICENCE AGREEMENT
